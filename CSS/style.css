@@ -1,1 +1,83 @@
- 
+ body
+{
+	margin : 0px;
+}
+#container
+{
+	width : auto;
+	
+}
+#hleft
+{
+	width : 25.5%;
+	height: 10px;
+	float: right;
+	background-color : #382903;
+}
+#hright
+{
+	width : 74.5%;
+	height: 10px;
+	float: right;
+	background-color : #ffecdb;
+}
+#mleft
+{
+	width : 0.5%;
+	height: 625px;
+	float : left;
+	background-color : #382903;
+}
+#mcontent
+{
+	width : 25%;
+	height: 625px;
+	float : left;
+	background-color : #382903;
+}
+#mright
+{
+	width : 74.5%;
+	height: 625px;
+	float : left;
+	background-color : #ffecdb;
+	text-align : center;
+}
+#par1
+{
+	position: absolute;
+	left: 62%;
+	top: 40%;
+	transform: translate(-50%, -50%);
+	font-size: 55px;
+}
+#txtb1
+{
+	border-radius:10px;
+	width : 290px;
+	height : 35px;
+	font-size : 20px;
+	background-color : #21a772;
+	border-color : #21a772;
+	text-align: center;
+}
+.bt1
+{
+	border : 1px solid #ffecdb;
+	border-radius:10px;
+	color : #21a772;
+	height : 35px;
+	padding : 7px 20px;
+	font-family : "Arial";
+	font-size : 15px;
+	transition : 0.8s;
+	background-color : #ffecdb;
+}
+.bt1:hover
+{
+	color : #fc6399;
+}
+.bt1::before
+{
+	color : #21a772;
+}
